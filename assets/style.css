@@ -4,32 +4,26 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: rgb(243, 243, 243);
     overflow: hidden;
 }
 hr{
-    border: 1px solid grey;
+    border: 1px solid rgb(243, 243, 243);
 }
 
 .logo{
 padding: 20px;
 background-color: white;
+margin-top: 1px;
 }
 
 
 .titolo{
-    width: 200px;
+    width: 170px;
     height: 50px;
-    background-color: blue;
-    display: inline-block;  
-}
-
-h1{
-    width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    margin-bottom: 10px;
-     
+    display: inline-block;
+    font-size: 45px;
+    text-align: top;
 }
 
 
@@ -37,8 +31,7 @@ h1{
 main{
     width: 70%;
     height: 780px;
-    background-color: black;
-    margin: 1px solid black;
+    background-color: white;
     background-position: center;
     margin-left: 15%;
     margin-top: 3%;
@@ -55,9 +48,9 @@ main{
     margin-left: 45px;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: rgb(44, 177, 221);
     color: white;
-    border: none;
+    border-color: rgb(44, 177, 221);
     cursor: pointer;
 }
 
@@ -67,10 +60,10 @@ main{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: white;
-    color: grey;
-    border: none;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgba(128, 128, 128, 0.507);
     cursor: pointer;
+    border-color: lightgray;
     
 }
 
@@ -89,27 +82,30 @@ ul{
 }
 
 li{
-    margin-left: 1em;
+    
     list-style: none;
     padding: 10px;
     font-size: 25px;
 }
 
 .check{
-    border: 1px solid rgb(148, 241, 8);
+    border: 2px solid rgb(148, 241, 8);
     border-radius: 100%;
     color: rgb(148, 241, 8);
+    font-size: 25px;
+    padding: 4px;
 }
 
 .cross{
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 100%;
     color: red;
+    padding: 4px;
 }
 
 .editorial{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(38, 187, 233);
     border-radius: 20px;
     color: white;
     padding:8px;
@@ -117,7 +113,7 @@ li{
 
 .q1-goals{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(168, 54, 221);
     border-radius: 20px;
     color: white;
     padding:8px;
@@ -125,7 +121,7 @@ li{
 
 .recruiting{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgba(0, 255, 179, 0.829);
     border-radius: 20px;
     color: white;
     padding:8px;
@@ -134,7 +130,7 @@ li{
 
 .website{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(211, 40, 182);
     border-radius: 20px;
     color: white;
     padding:8px;
@@ -143,7 +139,7 @@ li{
 
 .mobile{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(223, 156, 14);
     border-radius: 20px;
     color: white;
     padding:8px;
@@ -152,7 +148,7 @@ li{
 
 .sales{
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(37, 172, 25);
     border-radius: 20px;
     color: white;
     padding:8px;
