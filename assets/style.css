@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    overflow: hidden;
+}
+hr{
+    border: 1px solid grey;
+}
+
+.logo{
+padding: 20px;
+background-color: white;
+}
+
+
+.titolo{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;  
+}
+
+h1{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+     
+}
+
+
+
+main{
+    width: 70%;
+    height: 780px;
+    background-color: black;
+    margin: 1px solid black;
+    background-position: center;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.pulsanti{
+    width: 400px;
+    height: 80px;
+}
+
+.pulsante1{
+    width: 100px;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pulsante2{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.corpo{
+    margin-top: 35px;
+    width: 80%;
+    height: 700px;
+    background-color: white;
+    margin-left: 45px;
+}
+
+ul{
+    margin-left: 1em;
+    padding: 7px;
+    
+}
+
+li{
+    margin-left: 1em;
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.check{
+    border: 1px solid rgb(148, 241, 8);
+    border-radius: 100%;
+    color: rgb(148, 241, 8);
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 100%;
+    color: red;
+}
+
+.editorial{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+.q1-goals{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+.recruiting{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+
+.website{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+
+.mobile{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+
+.sales{
+    font-size: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+}
+
+/* Inserimento text dell'etichetta in base alla classe dello span */
+
+span.editorial::after{
+    content: "Editorial";  
+}
+
+span.recruiting::after{
+    content: "Recruiting";  
+}
+
+span.mobile::after{
+    content: "Mobile";  
+}
+
+span.q1-goals::after{
+    content: "Q1 Goals";  
+}
+
+span.website::after{
+    content: "Website";  
+}
+
+span.sales::after{
+    content: "Sales";  
+}
