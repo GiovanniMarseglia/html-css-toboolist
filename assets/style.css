@@ -3,34 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: sans-serif;
+}
+
 body{
     background-color: rgb(243, 243, 243);
-    overflow: hidden;
 }
+
 hr{
     border: 1px solid rgb(243, 243, 243);
 }
 
 .logo{
-padding: 20px;
-background-color: white;
-margin-top: 1px;
+vertical-align: middle;
+}
+
+header{
+    padding: 10px 0px 10px 20px;
+    background-color: white;
 }
 
 
+
 .titolo{
-    width: 170px;
-    height: 50px;
-    display: inline-block;
-    font-size: 45px;
-    text-align: top;
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+
 }
 
 
 
 main{
     width: 70%;
-    height: 780px;
+    height: 100%;
     background-color: white;
     background-position: center;
     margin-left: 15%;
@@ -70,9 +78,10 @@ main{
 .corpo{
     margin-top: 35px;
     width: 80%;
-    height: 700px;
+    /* height: 650px; */
+    /* max-height: max-content; */
     background-color: white;
-    margin-left: 45px;
+    margin: 0 auto;
 }
 
 ul{
@@ -92,15 +101,16 @@ li{
     border: 2px solid rgb(148, 241, 8);
     border-radius: 100%;
     color: rgb(148, 241, 8);
-    font-size: 25px;
-    padding: 4px;
+    font-size: 20px;
+    padding: 3px 4px;
 }
 
 .cross{
     border: 2px solid red;
     border-radius: 100%;
     color: red;
-    padding: 4px;
+    padding: 3px 4px;
+    font-size: 20px;
 }
 
 .editorial{
@@ -169,7 +179,7 @@ span.mobile::after{
 }
 
 span.q1-goals::after{
-    content: "Q1 Goals";  
+    content: "Q1-Goals";  
 }
 
 span.website::after{
@@ -178,4 +188,8 @@ span.website::after{
 
 span.sales::after{
     content: "Sales";  
+}
+
+ul h2::before{
+    content: "\25BE";
 }
